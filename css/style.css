@@ -369,12 +369,12 @@ p.sub-para {
 
 .slider-info h3 {
 	font-size: 2.3em;
-	color: #ffffff;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 400;
 	line-height: 1.8;
-	text-transform: uppercase;
-	background: darkblue;
+	text-transform: lowercase;
+	/* background: darkblue; */
 	padding: 0 15px;
 }
 
@@ -383,7 +383,7 @@ p.sub-para {
 	font-size: 16px;
 	letter-spacing: 3px;
 	margin-top: 1em;
-	text-transform: capitalize;
+	text-transform: lowercase;
 }
 
 .slider-info a {
@@ -403,12 +403,12 @@ p.sub-para {
 }
 
 .slider-info span {
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-size: 1.85em;
 	letter-spacing: 1px;
 	background: #ffffff;
 	padding: 4px 12px;
-	color: darkblue;
+	/* color:; */
 	font-weight: 400;
 }
 
@@ -502,18 +502,19 @@ div#agileits-services {
 /*-- //services --*/
 
 .title-section h4 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-size: 1em;
 	font-weight: 600;
-	color: #000;
+	color: darkblue;
 	letter-spacing: 1px;
+	line-height: 2em;
 }
 
 h3.w3ls-title {
 	font-size: 1.8em;
 	margin-top: 10px;
 	font-weight: 600;
-	color: darkblue;
+	color: white;
 }
 
 /* about */
@@ -565,7 +566,7 @@ h3.w3ls-title {
 /*--testimonials--*/
 
 .clients-left {
-	background: #00affe;
+	background:darkblue;
 	padding: 5em 13em 5em 13em;
 }
 
@@ -692,7 +693,7 @@ h3.w3ls-title {
 }
 
 div#testimonials {
-	background: url(../images/testi.jpg) center no-repeat;
+	background: url(../images/slide.jpeg) center no-repeat;
 	background-size: cover;
 	padding: 5em;
 }
@@ -932,7 +933,7 @@ h2 a {
 }
 
 .fv3-contact span {
-	color: #008eff;
+	color: darkblue;
 	width: 35px;
 	height: 35px;
 	line-height: 35px;
@@ -1019,7 +1020,7 @@ h3.w3f_title {
 }
 
 .cpy-right {
-	background: #026fbf;
+	background: darkblue;
 	padding: 1em 1vw;
 }
 
@@ -1130,15 +1131,15 @@ hr {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 3px;
-	background: #008eff;
-	color: #fff;
+	background: white;
+	color: darkblue;
 	width: 30%;
 	cursor: pointer;
 	border-radius: 0px;
 }
 
-.newsright input[type="submit"]:hover {
-	background: #333;
+.newsright input[type="submit"]:hover { 
+	background:white;
 }
 
 .galsses-grid-right {
@@ -1158,7 +1159,7 @@ hr {
 .footer-position {
 	position: absolute;
 	width: 60%;
-	background: #646efa;
+	background: darkblue;
 	left: 20%;
 	top: -8%;
 }
@@ -1174,10 +1175,10 @@ hr {
 	left: -40px;
 	width: 0;
 	height: 0;
-	border-bottom: 20px solid rgba(100, 110, 250, 0.65);
+	border-bottom: 20px solid darkblue;
 	border-top: 20px solid transparent;
 	border-left: 20px solid transparent;
-	border-right: 20px solid rgba(100, 110, 250, 0.65);
+	border-right: 20px solid darkblue;
 }
 
 .up-arrow:before {
@@ -1188,9 +1189,9 @@ hr {
 	width: 0;
 	height: 0;
 	border-top: 20px solid transparent;
-	border-bottom: 19px solid rgba(100, 110, 250, 0.65);
+	border-bottom: 19px solid darkblue;
 	border-right: 20px solid transparent;
-	border-left: 20px solid rgba(100, 110, 250, 0.67);
+	border-left: 20px solid darkblue;
 }
 
 .up-arrow:after,
@@ -1276,7 +1277,7 @@ span.ot {
 
 .team-text h4 {
 	font-size: 1.3em;
-	color: #646efa;
+	color: darkblue;
 	font-weight: 800;
 }
 
@@ -1674,7 +1675,7 @@ div#agileits-services {
 
 @media screen and (max-width: 991px) {
 	.navbar-collapse {
-		background: #008eff;
+		background: darkblue;
 		padding: 1em;
 	}
 	.footer-position {
